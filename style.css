@@ -1,0 +1,458 @@
+/* MISE EN PAGE COMMUNE PAGE_2 PAGE_3 PAGE_4 */
+
+/* Principaux elements de la page */
+
+html
+{
+	background-image: url("fond.png");
+	background-size: 100%;
+	background-position: 0px 0px;
+	background-repeat: y-repeat;
+	width: relative;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	width: relative;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	height: 270px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Mise en page de l'entete*/
+
+/* Le menu de navigation */
+
+ul
+{
+	margin-left: 600px;
+}
+ul li
+{
+	display: inline-block;
+	padding: 0px 10px 10px 10px;
+	margin: 0 30px;
+	color: white;
+	font-family: 'impact', arial, sans-serif;
+	font-size: x-large;
+	height: 20px;
+}
+ul li:hover
+{
+	text-decoration: underline;
+}
+
+#logo
+{
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 400px;
+}
+header #titre_page
+{
+	display: inline-block;
+	margin-left: 500px;
+	margin-top: 20px;
+	width: 700px;
+	text-align: center;
+	color: white;
+	font-family: 'indie flower', arial, sans-serif;
+	font-size: 80pt;
+	font-weight: bold;
+}
+
+/*MISE EN PAGE DE LA PAGE 2 : LE PROGRAMME ET PERFORMANCES*/
+
+/* Mise en page des perfrmances */
+
+#performance
+{
+	position: relative;
+	height: 620px;
+	text-align: center;
+}
+#scene
+{
+	position: absolute;
+	border-radius: 30px 30px 30px 30px;
+	left: 40px;
+	width: 1200px;
+	height: 600px;
+}
+
+/* Ajustement des zone pour le survol de souris */
+
+#pers_1, #pers_2, #pers_3, #pers_4, #pers_5, #pers_6, #pers_7
+{
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	top: 0;
+	width: 100px;
+	height: 200px;
+	opacity: 0;
+}
+#pers_1
+{
+	left: 210px;
+	top: 250px;
+	width: 165px;
+	height: 270px;
+}
+#pers_2
+{
+	left: 380px;
+	top: 280px;
+}#pers_3
+{
+	left: 490px;
+	top: 270px;
+	height: 230px;
+}#pers_4
+{
+	width: 150px;
+	left: 600px;
+	top: 270px;
+}#pers_5
+{
+	left: 760px;
+	top: 200px;
+	height: 240px;
+	width: 110px;
+}#pers_6
+{
+	left: 875px;
+	top: 250px;
+	width: 160px;
+}#pers_7
+{
+	left: 1050px;
+	top: 100px;
+	height: 280px;
+}
+
+/* Ajustement des textes apparaissant au survol */
+
+#performance p
+{
+	color: white;
+	font-size: large;
+	font-family: 'indie flower', arial, sans-serif;
+	width: 900px;
+}
+#pers_1 p
+{
+	margin-top: -250px;
+	margin-left: -170px;
+}
+#pers_2 p
+{
+	margin-top: -280px;
+	margin-left: -340px;
+}
+#pers_3 p
+{
+	margin-top: -270px;
+	margin-left: -450px;
+}
+#pers_4 p
+{
+	margin-top: -270px;
+	margin-left: -560px;
+}
+#pers_5 p
+{
+	margin-top: -200px;
+	margin-left: -720px;
+}
+#pers_6 p
+{
+	margin-top: -250px;
+	margin-left: -835px;
+}
+#pers_7 p
+{
+	margin-top: -100px;
+	margin-left: -1010px;
+}
+#camouflage
+{
+	position: absolute;
+	left: 40px;
+	width: 1000px;
+	height: 190px;
+	opacity: 0;
+}
+
+/* Reglage des effets de survol */
+
+#pers_1:hover
+{
+	opacity: 1;
+}
+#pers_2:hover
+{
+	opacity: 1;
+}#pers_3:hover
+{
+	opacity: 1;
+}#pers_4:hover
+{
+	opacity: 1;
+}#pers_5:hover
+{
+	opacity: 1;
+}#pers_6:hover
+{
+	opacity: 1;
+}#pers_7:hover
+{
+	opacity: 1;
+}
+
+#legend_scene
+{
+	position: absolute;
+	width: 650px;
+	opacity: 1;
+	color: white;
+	font-size: large;
+	right: 40px;
+	bottom: 0;
+}
+
+/*MISE EN PAGE DE LA PAGE 3 : CHRONOLOGIE DES DATES DE TOURNEE*/
+
+/* Positionnement des 3 bloc principaux */
+
+#bloc_fanions
+{
+	display: inline-block;
+	text-align: center;
+}
+#partie_1, #partie_2, #partie_3
+{
+	display: inline-block;
+	width: 1200px;
+	height: 700px;
+	position: relative;
+	text-align: center;
+}
+#bloc_fanions img
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 1100px;
+	
+}
+#bloc_fanions p
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	display: inline-block;
+	color: white;
+	font-size: x-large;
+	font-family: 'indie flower', arial, sans-serif;
+}
+
+/* Les boutons pour aller vers la billetterie */
+
+#bloc_fanions .buy_link
+{
+	border: 5px solid white;
+	border-radius: 40px;
+	font-size: xx-large;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	top: 100px;
+	left: 240px;
+}
+#bloc_fanions .buy_link:hover
+{
+	font-size: xx-large;
+	width: 200px;
+	color: yellow;
+	border: 5px solid blue;	
+}
+
+#bloc_fanions #buy_link
+{
+	border: 5px solid white;
+	border-radius: 40px;
+	font-size: xx-large;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	top: 100px;
+	left: 690px;
+}
+#bloc_fanions #buy_link:hover
+{
+	font-size: xx-large;
+	width: 200px;
+	color: yellow;
+	border: 5px solid blue;	
+}
+
+/* Positionnement de la legend de chaque fanion */	
+/* Pour les bloc 1 et 3 car ils ont la meme orientation et donc les meme coordonnées */
+
+#bloc_fanions #partie_1 #date_1, #bloc_fanions #partie_3 #date_17
+{
+	top: 560px;
+	left: 100px;
+}
+#bloc_fanions #partie_1 #date_2, #bloc_fanions #partie_3 #date_18
+{
+	top: 540px;
+	left: 240px;
+}
+#bloc_fanions #partie_1 #date_3, #bloc_fanions #partie_3 #date_19
+{
+	top: 500px;
+	left: 390px;
+}
+#bloc_fanions #partie_1 #date_4, #bloc_fanions #partie_3 #date_20
+{
+	top: 450px;
+	left: 530px;
+}
+#bloc_fanions #partie_1 #date_5, #bloc_fanions #partie_3 #date_21
+{
+	top: 400px;
+	left: 670px;
+}
+#bloc_fanions #partie_1 #date_6, #bloc_fanions #partie_3 #date_22
+{
+	top: 340px;
+	left: 810px;
+}
+#bloc_fanions #partie_1 #date_7, #bloc_fanions #partie_3 #date_23
+{
+	top: 280px;
+	left: 950px;
+}
+#bloc_fanions #partie_1 #date_8, #bloc_fanions #partie_3 #date_24
+{
+	top: 200px;
+	left: 1050px;
+}
+
+/* Pour le bloc 2 */
+
+#bloc_fanions #partie_2 #date_9
+{
+	top: 200px;
+	left: 0px;
+}
+#bloc_fanions #partie_2 #date_10
+{
+	top: 270px;
+	left: 130px;
+}
+#bloc_fanions #partie_2 #date_11
+{
+	top: 340px;
+	left: 250px;
+}
+#bloc_fanions #partie_2 #date_12
+{
+	top: 400px;
+	left: 390px;
+}
+#bloc_fanions #partie_2 #date_13
+{
+	top: 450px;
+	left: 540px;
+}
+#bloc_fanions #partie_2 #date_14
+{
+	top: 500px;
+	left: 690px;
+}
+#bloc_fanions #partie_2 #date_15
+{
+	top: 530px;
+	left: 840px;
+}
+#bloc_fanions #partie_2 #date_16
+{
+	top: 570px;
+	left: 980px;
+}
+
+/* MISE EN PAGE DE LA PAGE 4 */
+
+#bloc_contact
+{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#bloc_contact section
+{
+	position: relative;
+	text-align: center;
+	margin: 0 25px;
+	display: inline-block;
+	height: 600px;
+}
+#bloc_contact section img
+{
+	display: block;
+	position: relative;
+}
+#bloc_contact section p
+{
+	position: absolute;
+	left: 30px;
+	width: 240px;
+	color: white;
+	font-size: x-large;
+	font-family: 'indie flower', arial, sans-serif;
+	font-weight: bold;
+}
+#arobase, #adresse, #telephone
+{
+	position: relative;
+	margin: -350px auto 70px auto;
+	width: 60px;
+	height: 60px;
+}
+#orange, #bleu, #vert
+{
+	width: 300px;
+	height: 400px;
+}
+#orange
+{
+	margin-top: 80px;
+}
+#bleu
+{
+	margin-top: 220px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,231 @@
+/* Principaux elements de la pages */
+
+html 
+{
+	background-image: url("accueil.png");
+	background-size: 100%;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+header
+{
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Liens en blancs non soulignés */
+
+#bloc_etoiles a
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+}
+
+#bloc_etoiles a p
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Mise en place du logo */
+
+#logo_accueil
+{
+	position: relative;
+	vertical-align: top;
+	top: -40px;
+	width: 600px;
+	z-index: 1;
+}
+#bloc_lune
+{
+	margin: 0;
+	padding: 0;
+	display: inline-bloc;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 600px;
+	height: 550px;
+}
+#lune
+{
+	position: absolute;
+	right: 0;
+	height: 550px;
+}
+
+/* Mise en page de l'elephant qui aparait en survol de souris */
+
+#elephant
+{
+	position: absolute;
+	bottom: 45px;
+	right: 80px;
+	opacity: 0;
+}
+#elephant:hover
+{
+	opacity: 0.8;
+}
+
+/* Les etoiles et la lunes en place */
+
+#bloc_etoiles
+{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+	top: -95px;
+}
+#bloc_etoiles div
+{
+	position: absolute;
+	display:inline-block;
+	vertical-align: top;
+	height: 300px;
+}
+#bloc_etoiles div p
+{
+	position: relative;
+	top: -200px;
+}
+#bloc_etoile_1
+{
+	margin-left: -250px;
+}
+#bloc_etoile_2
+{
+	margin-left: -130px;
+}
+#bloc_etoile_3
+{
+	margin-left: 150px;
+}
+#etoile_1
+{
+	height: 350px;
+}
+#etoile_2
+{
+	height: 550px;
+	z-index: -1;
+}
+#etoile_3
+{
+	height: 250px;
+}
+
+
+/* Bouton du menu sur les etoiles
+option de survol souris */
+
+#programme
+{
+	position: absolute;
+	padding: 0;
+	color: blue;
+	font-size: x-large;
+	font-family: 'Impact', arial;
+	opacity: 0;
+}
+#programme:hover
+{
+	opacity: 1;
+	border-bottom: 3px dotted white;
+}
+#billetterie
+{
+	position: absolute;
+	padding: 0;
+	color: white;
+	font-size: x-large;
+	font-family: 'Impact', arial;
+	opacity: 0;
+}
+#billetterie:hover
+{
+	opacity: 1;
+	border-bottom: 3px dotted white;
+}
+#contact
+{
+	position: absolute;
+	padding: 0;
+	color: white;
+	font-size: x-large;
+	font-family: 'Impact', arial;
+	opacity: 0;
+}
+#contact:hover
+{
+	opacity: 1;
+	border-bottom: 3px dotted white;
+	padding-bottom: 5px;
+}
+
+/* Mise en page des indication de navigation */
+
+header #legend_etoiles, header #legend_lune
+{
+	color: white;
+	font-family: 'impact', arial, sans-serif;
+	position: relative;
+}
+#legend_etoiles
+{
+	top: -20px;
+	font-size: x-large;
+}
+#legend_lune
+{
+	float: right;
+	width: 250px;
+	font-size: large;
+	left: 0px;
+	top: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
