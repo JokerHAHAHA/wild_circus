@@ -98,6 +98,11 @@ header #titre_page
 	top: 0;
 	width: 100px;
 	height: 200px;
+	color: white;
+	font-size: x-large;
+	font-family: 'indie flower', arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
 	opacity: 0;
 }
 #pers_1
@@ -143,9 +148,6 @@ header #titre_page
 
 #performance p
 {
-	color: white;
-	font-size: large;
-	font-family: 'indie flower', arial, sans-serif;
 	width: 900px;
 }
 #pers_1 p
@@ -225,7 +227,8 @@ header #titre_page
 	opacity: 1;
 	color: white;
 	font-size: large;
-	right: 40px;
+	font-family: 'indie flower', arial, sans-serif;
+	right: 0;
 	bottom: 0;
 }
 
