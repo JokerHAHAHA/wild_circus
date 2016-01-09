@@ -102,12 +102,12 @@ footer img
 }
 footer ul
 {
-	margin: 100px auto;
+	margin: 100px auto 0 auto;
 }
 footer ul li
 {
 	display: inline-block;
-	padding: 0px 100px 100px 20px;
+	padding: 0 100px 100px 0;
 	color: white;
 	font-family: 'impact', arial, sans-serif;
 	font-size: x-large;
