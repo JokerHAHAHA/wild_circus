@@ -30,11 +30,11 @@ header
 
 /* Le menu de navigation */
 
-ul
+header ul
 {
 	margin-left: 600px;
 }
-ul li
+header ul li
 {
 	display: inline-block;
 	padding: 0px 10px 10px 10px;
@@ -49,6 +49,8 @@ ul li:hover
 	text-decoration: underline;
 }
 
+/* Le logo*/
+
 #logo
 {
 	position: absolute;
@@ -56,6 +58,9 @@ ul li:hover
 	left: 50px;
 	width: 400px;
 }
+
+/* Le tirte de la page */
+
 header #titre_page
 {
 	display: inline-block;
@@ -69,9 +74,54 @@ header #titre_page
 	font-weight: bold;
 }
 
+/* Mise en page du footer */
+
+footer
+{
+	margin-top: 100px;
+	padding-top: 50px;
+	width: 1000px;
+	display: inline-block;
+	border-top: 3px dashed white;
+}
+footer p
+{
+	margin: 0 25px;
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+	font-size: large;
+	font-family: 'indie flower', arial, sans-serif;
+	line-height: 60px;
+}
+
+footer img
+{
+	margin: 0 25px;
+	width: 60px;
+}
+footer ul
+{
+	margin: 100px auto;
+}
+footer ul li
+{
+	display: inline-block;
+	padding: 0px 100px 100px 20px;
+	color: white;
+	font-family: 'impact', arial, sans-serif;
+	font-size: x-large;
+	height: 20px;
+}
+
 /*MISE EN PAGE DE LA PAGE 2 : LE PROGRAMME ET PERFORMANCES*/
 
 /* Mise en page des perfrmances */
+
+#programme
+{
+	width: 800px;
+}
 
 #performance
 {
