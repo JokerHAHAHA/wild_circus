@@ -114,7 +114,10 @@ footer ul li
 	height: 20px;
 }
 
+
+/*//////////////////////////////////////////////////////////*/
 /*MISE EN PAGE DE LA PAGE 2 : LE PROGRAMME ET PERFORMANCES*/
+/*//////////////////////////////////////////////////////////*/
 
 /* Mise en page des perfrmances */
 
@@ -131,9 +134,8 @@ footer ul li
 }
 #scene
 {
-	position: absolute;
+	position: relative;
 	border-radius: 30px 30px 30px 30px;
-	left: 40px;
 	width: 1200px;
 	height: 600px;
 }
@@ -282,7 +284,12 @@ footer ul li
 	bottom: 0;
 }
 
+
+/*//////////////////////////////////////////////////////////*/
 /*MISE EN PAGE DE LA PAGE 3 : CHRONOLOGIE DES DATES DE TOURNEE*/
+/*//////////////////////////////////////////////////////////*/
+
+
 
 /* Positionnement des 3 bloc principaux */
 
@@ -297,6 +304,7 @@ footer ul li
 	width: 1200px;
 	height: 700px;
 	position: relative;
+	margin-left: 100px;
 	text-align: center;
 }
 #bloc_fanions img
@@ -324,20 +332,19 @@ footer ul li
 
 #bloc_fanions .buy_link
 {
+	position: fixed;
 	border: 5px solid white;
-	border-radius: 40px;
+	border-radius: 80px;
 	font-size: xx-large;
 	font-weight: bold;
-	height: 50px;
-	line-height: 50px;
-	width: 200px;
-	top: 100px;
-	left: 240px;
+	height: 120px;
+	width: 120px;
+	line-height: 60px;
+	top: 250px;
+	left: 30px;
 }
 #bloc_fanions .buy_link:hover
 {
-	font-size: xx-large;
-	width: 200px;
 	color: yellow;
 	border: 5px solid blue;	
 }
@@ -449,7 +456,15 @@ footer ul li
 	left: 980px;
 }
 
+
+
+
+/*//////////////////////////////////////////////////////////*/
 /* MISE EN PAGE DE LA PAGE 4 */
+/*//////////////////////////////////////////////////////////*/
+
+
+
 
 #bloc_contact
 {

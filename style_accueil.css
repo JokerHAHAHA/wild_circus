@@ -77,6 +77,14 @@ header
 	opacity: 0.8;
 }
 
+#legend_lune
+{
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 45px;
+	width: 250px;
+	font-size: large;
+}
 /* Les etoiles et la lunes en place */
 
 #bloc_etoiles
@@ -185,43 +193,6 @@ header #legend_etoiles, header #legend_lune
 	top: -20px;
 	font-size: x-large;
 }
-#legend_lune
-{
-	float: right;
-	width: 250px;
-	font-size: large;
-	left: 0px;
-	top: 75px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
