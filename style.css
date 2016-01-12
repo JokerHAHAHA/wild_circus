@@ -330,7 +330,7 @@ footer ul li
 
 /* Les boutons pour aller vers la billetterie */
 
-#bloc_fanions .buy_link
+#bloc_fanions #buy_link
 {
 	position: fixed;
 	border: 5px solid white;
@@ -343,31 +343,12 @@ footer ul li
 	top: 250px;
 	left: 30px;
 }
-#bloc_fanions .buy_link:hover
+#bloc_fanions #buy_link:hover
 {
 	color: yellow;
 	border: 5px solid blue;	
 }
 
-#bloc_fanions #buy_link
-{
-	border: 5px solid white;
-	border-radius: 40px;
-	font-size: xx-large;
-	font-weight: bold;
-	height: 50px;
-	line-height: 50px;
-	width: 200px;
-	top: 100px;
-	left: 690px;
-}
-#bloc_fanions #buy_link:hover
-{
-	font-size: xx-large;
-	width: 200px;
-	color: yellow;
-	border: 5px solid blue;	
-}
 
 /* Positionnement de la legend de chaque fanion */	
 /* Pour les bloc 1 et 3 car ils ont la meme orientation et donc les meme coordonnées */
