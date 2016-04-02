@@ -1,7 +1,7 @@
 # International Wild Circus
 
-A static web site developped for Wild Code Shool admission. 
-It deals about a no-existing circus troup.
+A static web site developped for [Wild Code Shool](http://www.wildcodeschool.fr/) admission. 
+It deals with a no-existing circus troup.
 
 ## Collabs
 
